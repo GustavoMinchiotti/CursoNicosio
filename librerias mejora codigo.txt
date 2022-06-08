@@ -1,0 +1,10 @@
+Librería flake8 para mejorar el código de Python
+Instalamos con pip install flake8
+Y lo usamos pasando el archivo .py
+Ejemplo: flake8 mi_archivo_en_python.py
+Aparecerán unas instrucciones de como mejorar el código
+También he descubierto la librería black
+Instalamos con pip install black
+Uso: black mi_archivo_en_python.py
+Refactoriza el código para mejorarlo.
+Escribir código más limpio y sugerencias de refactorización instantánea para PyCharm y otros: https://sourcery.ai/ 
