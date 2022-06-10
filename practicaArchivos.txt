@@ -1,0 +1,6 @@
+0 hola a todos
+1 este es un archivo de practica
+2 no deberia tener problemas con el codigo
+3 python esta fluyendo bien
+4 es sencilla su sintaxis
+5 los numeros solo son de referencia
