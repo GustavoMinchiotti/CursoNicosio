@@ -9,13 +9,13 @@ print("*-*-"*20)
 
 # Copiar el set
 masColores = colores.copy()
-print(masColores,'".copy"')
+print(masColores,'".copy" esta es una copia')
 
 print("*-*-"*20)
 
 # Remover todos los elementos de la lista
 masColores.clear()
-print(masColores,'".clear"')
+print(masColores,'".clear" con esta opcion lo vacío pero existe en memoria')
 
 '''si quiero borrar el conjunto lo hago con del (del masColores)'''
 
@@ -25,13 +25,14 @@ print("*-*-"*20)
 # que no pertenecen a (b)
 a= {1,2,3,4,5,6}
 b= {1,3,5}
+print('Diferencia: muestra los elementos los elementos de (a) que no pertenecen a (b)')
 print(a.difference(b))
-print (a-b)
+print (a-b,'resultado de a - b')
 print("*-*-"*20)
 
 c = {1, 2, 3, 4}
 d = {2, 4, 6, 8}
-print (c - d)
+print (c - d, 'resultado de c - d')
 print("*-*-"*20)
 
 # Difference_update
@@ -59,7 +60,7 @@ d={1,2,3}
 
 d.remove(2)
 print(d)
-d.remove(9)
+#d.remove(9)        # si lo habilito corta el prgrama acá por el error
 
 
 print("*-+-"*20)
