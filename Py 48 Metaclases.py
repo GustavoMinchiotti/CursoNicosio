@@ -56,6 +56,7 @@ val2 = valores2(10,22)
 # Usamos las instancias
 print('valores 1')
 val1.muestra()
+val1.duplicador()
 if opcion1==1:
     val1.duplicador()
     val1.muestra()

@@ -9,7 +9,8 @@ print (precio)
 saldo=float(14)
 print(saldo)
 
-# Podemos definir directamente al hacer la operacion
+# Podemos definir directamente al hacer la 
+
 total=precio+saldo
 print (total)
 
@@ -27,7 +28,11 @@ print (calif1)
 print (calif2)
 print ("\n")# estoy usando el salto de linea para que la salida sea mas prolija
 
-# Creacion de una cadena con formato
+# The line `# Creación de una cadena con formato` is a comment in Spanish that translates to "Creating
+# a formatted string". It is describing the purpose or functionality of the following code block,
+# which involves using string formatting with the `%` operator to insert variables into a string
+# template.
+# Creación de una cadena con formato
 formato = "Una variable %r, otra variable %r"
 # var %r, r = raw mantiene el tipo de variable, es util para frases repetitivas!!
 # pero se utiliza mas para debug, no es una buena practica.
@@ -38,11 +43,11 @@ print ("\n")
 
 # Imprimir lineas multiples...
 print ("""esta es
-una impresion
+una impresión
 de varias lineas""")
 print ("\n")
-# Codigos de escape
+# Códigos de escape
 print ("Voy a imprimir una \\ aqui")
-print ("Si lo deseo pengo \' o \" en la impresion")
+print ("Si lo deseo pongo \' o \" en la impresión")
 print ("una linea \notra linea abajo")
 print ("\t con salto de tab")
